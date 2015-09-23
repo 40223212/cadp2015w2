@@ -10,7 +10,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
+<v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 <v t="amd.20150915153206.1" a="E"><vh>專案說明</vh>
@@ -20,7 +20,7 @@
 <v t="amd.20150919102541.1"><vh>pelican 與 Markdown</vh></v>
 </v>
 </v>
-<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
+<v t="amd.20150919102739.1"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20150919103428.1"><vh>reveal.js 設定</vh></v>
 <v t="amd.20150919103341.1"><vh>Jupyter 設定</vh>
@@ -28,6 +28,7 @@
 <v t="amd.20150919104249.1"><vh>檢查 profile 位置</vh></v>
 </v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
+<v t="amd.20150920030003.1"><vh>IPython notebook 整合</vh></v>
 <v t="amd.20150919112710.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20150919113340.1"><vh>以下為與 pelican 有關的設定檔案</vh></v>
 <v t="amd.20150919113132.1"><vh>@edit publishconf.py</vh></v>
@@ -37,9 +38,10 @@
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
+<v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
-<v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
+<v t="amd.20150913233943.1" a="E"><vh>@clean cadpbw1.html</vh>
 <v t="amd.20150913233943.2" a="E"><vh>html</vh>
 <v t="amd.20150913233943.3" a="E"><vh>head</vh>
 <v t="amd.20150913233943.4"><vh>title</vh></v>
@@ -47,15 +49,24 @@
 <v t="amd.20150913233943.5" a="E"><vh>body</vh>
 <v t="amd.20150913233943.6" a="E"><vh>div</vh>
 <v t="amd.20150913233943.7" a="E"><vh>div</vh>
-<v t="amd.20150913234947.1"><vh>title page</vh>
-<v t="amd.20150913235225.1"><vh>標題頁下的子頁</vh></v>
+<v t="amd.20150913234947.1" a="E"><vh>title page</vh>
+<v t="leo.20150924002551.1"><vh>title page</vh></v>
+<v t="amd.20150913235225.1"><vh>p</vh></v>
 </v>
-<v t="amd.20150913235034.1"><vh>本日要點</vh></v>
-<v t="amd.20150914000138.1"><vh>Anaconda Python</vh></v>
-<v t="amd.20150914000332.1" a="E"><vh>設計的表達方式</vh>
-<v t="amd.20150914000332.2"><vh>協同模式下的網際雲端內容呈現</vh></v>
+<v t="leo.20150924003701.2" a="E"><vh>hw-task-one</vh>
+<v t="leo.20150924003723.1"><vh>p</vh></v>
+<v t="leo.20150924003726.1"><vh>p</vh></v>
+<v t="leo.20150924003727.1"><vh>p</vh></v>
+<v t="leo.20150924003727.2"><vh>p</vh></v>
 </v>
-<v t="amd.20150913235123.1"><vh>結論</vh></v>
+<v t="leo.20150924003953.1" a="E"><vh>W1-FinalPoint</vh>
+<v t="leo.20150924004149.1"><vh>p</vh></v>
+<v t="leo.20150924004154.1"><vh>p</vh></v>
+<v t="leo.20150924004154.2"><vh>p</vh></v>
+<v t="leo.20150924004154.3"><vh>p</vh></v>
+<v t="leo.20150924004155.1"><vh>p</vh></v>
+<v t="leo.20150924004155.2"><vh>p</vh></v>
+</v>
 </v>
 </v>
 <v t="amd.20150913233943.81"><vh>script</vh></v>
@@ -264,7 +275,7 @@
 </v>
 </v>
 </v>
-<v t="ibm.20150918175403.1" a="E"><vh>@clean cpw1.html</vh>
+<v t="ibm.20150918175403.1"><vh>@clean cpw1.html</vh>
 <v t="ibm.20150918175403.2"><vh>檔案說明</vh></v>
 <v t="ibm.20150918175403.3" a="E"><vh>html 標註</vh>
 <v t="ibm.20150918175403.4" a="E"><vh>body 標註</vh>
@@ -297,7 +308,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915170743.1"><vh>@clean v31ref.html</vh>
+<v t="amd.20150915170743.1" a="E"><vh>@clean v31ref.html</vh>
 <v t="amd.20150915170743.2" a="E"><vh>html 標註</vh>
 <v t="amd.20150915170743.3" a="E"><vh>head</vh>
 <v t="amd.20150915170743.4"><vh>title - 標題</vh></v>
@@ -491,10 +502,6 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="amd.20150913232627.2">@language xml
-@tabwidth -4
-@others
-</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -622,34 +629,13 @@ vertical: body pane on the botton</t>
         });
     &lt;/script&gt;
 </t>
-<t tx="amd.20150913234947.1">&lt;section id="title page"&gt;
-&lt;section&gt;
-標題頁面
-&lt;/section&gt;
+<t tx="amd.20150913234947.1">&lt;section&gt;
 @others
 &lt;/section&gt;
 </t>
-<t tx="amd.20150913235034.1">&lt;section&gt;
-本日要點
-&lt;/section&gt;</t>
-<t tx="amd.20150913235123.1">&lt;section&gt;
-結論
-&lt;/section&gt;</t>
 <t tx="amd.20150913235225.1">&lt;section&gt;
-標題頁下的子頁
-&lt;/section&gt;</t>
-<t tx="amd.20150914000138.1">&lt;section&gt;
-&lt;a href="http://continuum.io/downloads"&gt;Anaconda Python 下載&lt;/a&gt;
-&lt;/section&gt;</t>
-<t tx="amd.20150914000332.1">&lt;section id="設計的表達方式"&gt;
-&lt;section&gt;
-設計的表達方式
-&lt;/section&gt;
-@others
-&lt;/section&gt;
-</t>
-<t tx="amd.20150914000332.2">&lt;section&gt;
-協同模式下的網際雲端內容呈現
+&lt;p&gt;踏上重修不歸路&lt;p&gt;
+&lt;p&gt;不成功便成仁&lt;p&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150915153206.1">2015.09.15
 
@@ -1987,9 +1973,6 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
 	&lt;![endif]--&gt;
 &lt;/head&gt;
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-&lt;/html&gt;
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 1365161e5ee1a3e979d94ab7def658cb9564abe7
 @others
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
@@ -2026,7 +2009,7 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
+    &lt;h1&gt;有關我的 cadp 作業&lt;/h1&gt;
     &lt;p&gt;學號姓名與日期&lt;/p&gt;		
 &lt;/section&gt;
 	
@@ -2147,6 +2130,13 @@ import os
 os.system('''pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-bootstrap3
 ''')
 g.es("pelican 執行完畢")</t>
+<t tx="amd.20150920030003.1">必須使用 IPython 3.2.1
+
+sudo pip3 install IPython[notebook]==3.2.1
+
+因為 IPython 4.0 已經將 IPython notebook 分出去改名為 Jupyter
+
+之後可能再測試 liquid_tags 是否能與 Jupyter 相容</t>
 <t tx="ibm.20150918175403.1">@language xml
 @tabwidth -4
 @others
@@ -2235,5 +2225,62 @@ g.es("pelican 執行完畢")</t>
     &lt;p&gt;線上教材&lt;/p&gt;
     &lt;p&gt;影音教材&lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20150924002551.1">&lt;section id="title page"&gt;
+&lt;h1&gt;cadp-2Bcalss  HW&lt;/h1&gt;
+&lt;h2&gt;四設三乙 何師誠&lt;/h2&gt;
+    &lt;p&gt;9/14、9/24&lt;p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20150924003701.2">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20150924003723.1">&lt;section&gt;
+&lt;h1&gt;hw-task-one&lt;/h1&gt;
+&lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+&lt;p&gt;看完後有把它做出來基本款得50分~
+&lt;/section&gt;</t>
+<t tx="leo.20150924003726.1">&lt;section&gt;
+&lt;p&gt;1st.詳細閱讀簡易篇&lt;a href="http://backlogtool.com/git-guide/tw/intro/intro1_1.html" target="_blank"&gt;猴(GIT)子大師&lt;/a&gt;&lt;p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20150924003727.1">&lt;section&gt;
+&lt;p&gt;2nd.大概看一下老師提供的&lt;a href="https://leoeditor-coursemdetw.rhcloud.com/get_page?heading=Leo%20Editor%20Tutorial" target="_blank"&gt;Leo Editor 簡介&lt;/a&gt;&lt;p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20150924003727.2">&lt;section&gt;
+&lt;p&gt;3rd.點開飄過&lt;a href="http://www.sciencedirect.com/science/article/pii/B9780815514473500029" target="_blank"&gt; What Engineers do?&lt;/a&gt;一書&lt;p&gt;				
+&lt;/section&gt;</t>
+<t tx="leo.20150924003953.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20150924004149.1">&lt;section&gt;
+&lt;p&gt;本周自評分數 50+20=70分&lt;p&gt;
+&lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://github.com/40223212/2015cadp" target="_blank"&gt;github&lt;/a&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20150924004154.1">&lt;section&gt;
+&lt;h2&gt;如何建立 gh-pages 分支?&lt;h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/40223212/2015cadp" target="_blank"&gt;github&lt;/a&gt;
+&lt;p&gt;10 point get!!&lt;p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20150924004154.2"> &lt;section&gt;
+&lt;h2&gt;如何維護 gh-pages 內容資料?&lt;h2&gt;
+&lt;P&gt;clone 分支資料後在push會發生錯誤，看完資料有點難用LEO和GITHUB都在一起QQ...&lt;P&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20150924004154.3">&lt;section&gt;
+&lt;h2&gt;如何將 reveal.js 架構, 整合到 gh-pages 分支內容中?&lt;h2&gt;
+ &lt;P&gt; 努力嘗試，一周一周努力中&lt;P&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20150924004155.1">&lt;section&gt;
+&lt;h2&gt;如何利用 Leo Editor 編輯器,  管理 reveal.js 的網頁資料?&lt;h2&gt;
+&lt;P&gt;我直接用SciTE直接編譯...不過看起來leo也很好用!!要嘗試
+&lt;/section&gt;</t>
+<t tx="leo.20150924004155.2">&lt;section&gt;
+&lt;p&gt;  如何導入 Jupyter notebook 與產品開發專案中的各式電腦輔助設計資料, 
+
+讓學習者可以利用上述各項工具的整合, 
+
+體會一下二十一世紀的機械設計工程師, 
+
+可以如何執行新產品的開發工作.
+ &lt;/p&gt;</t>
 </tnodes>
 </leo_file>
