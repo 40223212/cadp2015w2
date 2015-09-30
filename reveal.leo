@@ -10,7 +10,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
+<v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 <v t="amd.20150915153206.1" a="E"><vh>專案說明</vh>
@@ -20,7 +20,7 @@
 <v t="amd.20150919102541.1"><vh>pelican 與 Markdown</vh></v>
 </v>
 </v>
-<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
+<v t="amd.20150919102739.1"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20150919103428.1"><vh>reveal.js 設定</vh></v>
 <v t="amd.20150919103341.1"><vh>Jupyter 設定</vh>
@@ -38,7 +38,8 @@
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
-<v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
+<v t="leo.20150930104358.1"><vh>@edit 2015text1.md</vh></v>
+<v t="leo.20150930105522.1"><vh>@clean 2015text2.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -2320,5 +2321,25 @@ Diff...
 &lt;/section&gt;
 	
 </t>
+<t tx="leo.20150930104358.1">@language md
+Title: 測試
+Date: 2015-09-30 10:45
+Modified: 2015-09-30 10:45
+Category: Python
+Tags: pelican
+Slug: text
+Authors: maple
+Summary: 測試新增頁面
+以下為作業一內容</t>
+<t tx="leo.20150930105522.1">@language md
+Title: 測試12121
+Date: 2015-09-30 10:45
+Modified: 2015-09-30 10:45
+Category: Python
+Tags: pelican
+Slug: text12121
+Authors: maple
+Summary: 測試新增頁面
+以下為作業一內容</t>
 </tnodes>
 </leo_file>
