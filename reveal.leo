@@ -39,7 +39,6 @@
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="leo.20150930104358.1"><vh>@edit 2015text1.md</vh></v>
-<v t="leo.20150930114358.1"><vh>@edit 2015cahww2.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -2321,15 +2320,5 @@ Diff...
 &lt;/section&gt;
 	
 </t>
-<t tx="leo.20150930104358.1">@language md
-Title: 測試
-Date: 2015-09-30 10:45
-Modified: 2015-09-30 10:45
-Category: Python
-Tags: pelican
-Slug: text
-Authors: maple
-Summary: 測試新增頁面
-以下為作業一內容</t>
 </tnodes>
 </leo_file>
